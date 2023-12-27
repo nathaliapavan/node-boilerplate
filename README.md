@@ -20,16 +20,17 @@ Certifique-se de ter os seguintes requisitos instalados antes de prosseguir:
     git clone https://github.com/nathaliapavan/node-boilerplate.git
   ```
 
-2. Instale as dependências do projeto
+2. Execução com NPM
   ```bash
     npm install
+    npm run dev
   ```
 
-3. Execução
-
-      3.1 Com docker: `docker-compose up -d`
-
-      3.2 Com npm: `npm run dev`
+3. Execução com Docker
+  ```bash
+    docker build -t tools-api .
+    docker-compose up -d
+  ```
 
 4. Acesse a API
     ```bash
